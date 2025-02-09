@@ -1,0 +1,180 @@
+@media screen and (min-width: 1500px){
+    .card-container {
+        font-family: 'Open Sans';
+        font-size: 14px!important;
+        .flex-box {
+            height: 52vh;
+        }
+        .cards-container {
+            align-items: center;
+            gap: 15px;
+            padding-left: 80px;
+            margin-top: 10%;
+        }
+        .cards {
+            margin-top: 0px!important;
+            padding-left: 0px!important;
+        }
+        .image-container {
+            margin-top: 0px!important;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            padding: 0 50px 50px 0;
+        }
+        .image-container-6 {
+            flex: 1.6;
+            padding: 0;
+        }
+        .image-container-1 img {
+            margin-top: 5%;
+        }
+        .image-container-3 img {
+            margin-top: 7%;
+        }
+        .image-container-6 img {
+            margin-top: 35%;
+        }
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width: 750px) {
+    .card-container {
+        .flex-box {
+            width: 100%;
+        }
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1200px) {
+    .card-container {
+        .flex-box {
+            width: 50%;
+        }
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1200px) {
+    .card-container {
+        .flex-box {
+            width: 50%;
+        }
+    }
+}
+
+@media screen and (min-width: 575px) {
+    .small-screen {
+        display: none;
+    }
+    .large-screen {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .card-container {
+        display: block;
+        .flex-box {
+            width: 100%;
+        }
+    }
+    .small-screen {
+        display: block;
+    }
+    .large-screen {
+        display: none;
+    }
+    .slick-next::before, .slick-prev::before {
+        color: white;
+    }
+    .slick-prev:before{
+        content: ''!important;
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-left: 2px solid #FFFFFF;
+        border-bottom: 2px solid #FFFFFF;
+        transform: rotate(45deg);
+    }
+    .slick-next::before {
+        content: ''!important;
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-right: 2px solid #FFFFFF;
+        border-top: 2px solid #FFFFFF;
+        transform: rotate(45deg);
+    }
+    .slick-dots {
+        bottom: 25px!important;
+    }
+    .slick-prev {
+        left: 30px!important;
+        z-index: 10;
+        background: transparent!important;
+    }
+    .slick-next {
+        right: 40px!important;
+        background: transparent!important;
+    }
+    .slick-dots li {
+        width: 5px!important;
+        height: 5px!important;
+    }
+    .slick-dots li.slick-active button:before {
+        background: #FFFFFF!important;
+    }
+    .slick-dots li button:before {
+        font-size: 12px!important;
+        width: 7px!important;
+        height: 7px!important;
+        display: block!important;
+        content: ''!important;
+        border: 2px solid white!important;
+        border-radius: 50%!important;
+        opacity: 1!important;
+    }
+    .card-container .flex-box.color1 {
+        flex-direction: column;
+        align-items: unset;
+        .cards-container {
+            margin: auto;
+        }
+    }
+    .small-container {
+        .main-logo {
+            position: relative;
+            top: unset;
+            left: unset;
+            padding: 20px 0 20px 20px;
+            background: #FFFFFF;
+            img {
+                width: 60px;
+                filter: brightness(0) saturate(0%);
+            }
+        }
+        .flex-box {
+            height: 100vh!important;
+        }
+        .cards-container {
+            flex-direction: column;
+            max-width: 65%;
+            margin: 0 auto;
+        }
+        p {
+            text-transform: uppercase;
+        }
+        .cards {
+            margin-top: 0;
+            padding-left: 0;
+        }
+        .image-container {
+            margin-top: 25px;
+            height: 100%;
+        }
+        .image-container img {
+            margin-top: 0;
+            height: 100%;
+        }
+    }
+}

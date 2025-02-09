@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Open Sans Regular';
+}
+
+@font-face {
+  font-family: 'Open Sans Regular'; /* Name you'll use in your styles */
+  src: url('./assets/fonts/OpenSans-Regular.ttf') format('truetype'); /* Fallback for older browsers */
+  font-weight: 400; /* Optional: Specify font weight */
+  font-style: normal; /* Optional: Specify font style */
+}
+
+@font-face {
+  font-family: 'Open Sans Bold'; /* Name you'll use in your styles */
+  src: url('./assets/fonts/OpenSans-Bold.ttf') format('truetype'); /* Fallback for older browsers */
+  font-weight: 400; /* Optional: Specify font weight */
+  font-style: normal; /* Optional: Specify font style */
+}
